@@ -1,0 +1,64 @@
+baseURL = "https://dnxploit.github.io/"
+locale = "es-es"
+title = "dnxploit - Writeups"
+theme = "PaperMod"
+
+paginate = 10
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+
+[minify]
+  disableXML = true
+  minifyOutput = true
+ 
+[params]
+  env = "production"
+  description = "Análisis de malware e ingeniería inversa"
+  author = "dnxploit"
+  defaultTheme = "dark"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+ 
+  [params.homeInfoParams]
+    Title = "Hola 👋"
+    Content = "Estudiante de redes (SMR) preparando CCNA. La ingeniería inversa y el análisis de malware son mi hobby: cuando me topo con algo interesante, lo desmonto, lo documento y lo comparto aquí."
+ 
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/danperfer/"
+ 
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/dnxploit"
+
+[[menu.main]]
+  identifier = "writeups"
+  name = "Writeups"
+  url = "/posts/"
+  weight = 10
+ 
+[[menu.main]]
+  identifier = "tags"
+  name = "Tags"
+  url = "/tags/"
+  weight = 20
+ 
+[[menu.main]]
+  identifier = "about"
+  name = "Sobre mí"
+  url = "/about/"
+  weight = 30
+ 
+[markup]
+  [markup.highlight]
+    noClasses = false
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    style = "monokai"
