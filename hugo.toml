@@ -1,6 +1,6 @@
 baseURL = "https://dnxploit.github.io/"
 locale = "es-es"
-title = "dnxploit - Writeups"
+title = "dnxploit"
 theme = "PaperMod"
 
 paginate = 10

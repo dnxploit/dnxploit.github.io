@@ -16,7 +16,7 @@ A mi madre le llegó un fichero llamado `PDF_Contrato.apk` haciéndose pasar por
 
 Resulta que era un **dropper** de Android: una app cuya única gracia es llevar escondido, y cifrado, un segundo APK que es el malware de verdad. Lo analicé entero de forma **estática** y acabé sacando la dirección de su servidor de command & control (C2), pelando tres capas de cifrado por el camino.
 
-El resumen de la muñeca rusa:
+El resumen de la Matrioshka:
 
 ```text
 PDF_Contrato.apk (dropper)
