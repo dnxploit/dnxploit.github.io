@@ -157,13 +157,13 @@ http://190.102.43.149/yaarsa/private/log_error.php
 
 ---
 
-## 7. Alcance y ética (la parte aburrida pero importante)
+## 7. Alcance y ética
 
 Todo esto se hizo con **análisis estático**. La muestra **no se ejecutó** en ningún momento, y el servidor C2 **no lo toqué**: ni me conecté, ni lo escaneé, ni le mandé un triste ping. Su dirección la dejo aquí solo como indicador para que se pueda bloquear.
 
 ---
 
-## 8. Consejos para quien no se dedica a esto (como mi madre)
+## 8. Consejos para quien no se dedica a esto
 
 - Un contrato de verdad es un **PDF**. Si te llega un **`.apk`, es una aplicación** — y en este contexto, un virus con lazo de regalo. Un documento nunca acaba en `.apk`.
 - Si una app te pide activar el **"Servicio de accesibilidad"** para "poder funcionar", desconfía. Es la puerta grande por la que estos troyanos se cuelan para verlo y controlarlo todo.
